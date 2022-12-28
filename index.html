@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>FAQ accordion card</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="container-left">
+          <img
+            src="./images/illustration-box-desktop.svg"
+            alt="box"
+            class="img-box"
+          />
+          <img
+            src="./images/illustration-woman-online-desktop.svg"
+            alt="woman-illustration"
+            class="woman-img"
+          />
+        </div>
+        <!--container-left-->
+        <div class="container-right">
+          <h1>FAQ</h1>
+          <div class="container-right-text">
+            <p>How many team members can I invite?</p>
+            <button class="btn" id="btn1" onclick="abrirmenu1()">
+              <img src="./images/icon-arrow-down.svg" alt="arrow-down" />
+            </button>
+          </div>
+          <!--container-right-text-->
+          <small class="small" id="small-um"
+            >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+            semper.</small
+          >
+          <hr />
+          <div class="container-right-text">
+            <p>What is the maximum file upload size?</p>
+            <button class="btn" id="btn2" onclick="abrirmenu2()">
+              <img src="./images/icon-arrow-down.svg" alt="arrow-down" />
+            </button>
+          </div>
+          <!--container-right-text-->
+          <small class="small" id="small-dois"
+            >No more than 2GB. All files in your account must fit your allotted
+            storage space.</small
+          >
+          <hr />
+
+          <div class="container-right-text">
+            <p id="p3">How do I reset my password?</p>
+            <button class="btn" id="btn3" onclick="abrirmenu3()">
+              <img src="./images/icon-arrow-down.svg" alt="arrow-down" />
+            </button>
+          </div>
+          <!--container-right-text-->
+          <small class="small" id="small-tres"
+            >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+            pulvinar.</small
+          >
+          <hr />
+
+          <div class="container-right-text">
+            <p id="p4">Can I cancel my subscription?</p>
+            <button class="btn" id="btn4" onclick="abrirmenu4()">
+              <img src="./images/icon-arrow-down.svg" alt="arrow-down" />
+            </button>
+          </div>
+          <!--container-right-text-->
+          <small class="small" id="small-quatro"
+            >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+            sodales.</small
+          >
+          <hr />
+
+          <div class="container-right-text">
+            <p id="p5">Do you provide additional support?</p>
+            <button class="btn" id="btn5" onclick="abrirmenu5()">
+              <img src="./images/icon-arrow-down.svg" alt="arrow-down" />
+            </button>
+          </div>
+          <!--container-right-text-->
+          <small class="small" id="small-cinco"
+            >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+            non.</small
+          >
+          <hr />
+        </div>
+        <!--container-right-->
+      </div>
+      <!--container-->
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,271 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: hsl(273, 75%, 66%);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.container {
+  max-width: 100%;
+  width: 55rem;
+  height: 32rem;
+  background-color: #fff;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: none;
+  border-radius: 2rem;
+  display: flex;
+}
+
+.container-left {
+  max-width: 100%;
+  width: 50%;
+  background-image: url(./images/bg-pattern-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  display: flex;
+}
+
+.img-box {
+  position: relative;
+  width: 10rem;
+  height: 10rem;
+  right: 5rem;
+  top: 10rem;
+  z-index: 1;
+}
+
+.woman-img {
+  position: relative;
+  right: 12rem;
+  bottom: 1rem;
+  width: 29rem;
+  height: 25rem;
+}
+
+.container-right {
+  width: 50%;
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  margin: 10px 30px;
+}
+
+.container-right h1 {
+  position: relative;
+  right: 9rem;
+  margin-bottom: 2rem;
+}
+
+.container-right-text {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  justify-content: space-between;
+
+  margin: 10px 20px;
+}
+
+.container-right-text p {
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: -6rem;
+  color: hsl(237, 12%, 33%);
+}
+
+hr {
+  width: 100%;
+  opacity: 0.3;
+  margin-right: 1rem;
+}
+
+.small {
+  color: hsl(237, 12%, 33%);
+  font-size: 11px;
+  opacity: 0.8;
+  display: none;
+  position: relative;
+  right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+#small-um {
+  display: none;
+}
+#small-dois {
+  display: none;
+}
+#small-tres {
+  display: none;
+}
+#small-quatro {
+  display: none;
+}
+#small-cinco {
+  display: none;
+}
+
+.btn {
+  border: none;
+  background-color: #fff;
+  position: absolute;
+  cursor: pointer;
+}
+
+#p3 {
+  position: relative;
+  right: 1.75rem;
+}
+
+#p4 {
+  position: relative;
+  right: 1.7rem;
+}
+
+#p5 {
+  position: relative;
+  right: 0.5rem;
+}
+
+#btn1 {
+  position: relative;
+  left: 4.5rem;
+}
+#btn2 {
+  position: relative;
+  left: 4.6rem;
+}
+#btn3 {
+  position: relative;
+  left: 6.5rem;
+}
+#btn4 {
+  position: relative;
+  left: 6.5rem;
+}
+#btn5 {
+  position: relative;
+  left: 5.3rem;
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .container {
+    width: 350px;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0.75rem;
+    top: 10rem;
+  }
+
+  .container-left {
+    background-image: none;
+  }
+
+  .woman-img {
+    width: 250px;
+    height: auto;
+    position: relative;
+    bottom: 7rem;
+    left: -130px;
+  }
+
+  .img-box {
+    width: 200px;
+    height: 90px;
+    position: relative;
+    top: -40px;
+    right: 42px;
+  }
+
+  .container-right {
+    max-width: 100%;
+    width: 200px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .container-right h1 {
+    position: relative;
+    left: 0.4rem;
+    bottom: 5rem;
+  }
+
+  .container-right-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    position: relative;
+    bottom: 4rem;
+    left: 1rem;
+  }
+  .container-right-text p {
+    font-size: 13px;
+  }
+
+  .small {
+    font-size: 10px;
+    width: 180%;
+    position: relative;
+    bottom: 4rem;
+    right: 0.8rem;
+  }
+
+  hr {
+    width: 180%;
+    position: relative;
+    bottom: 4rem;
+  }
+
+  #btn1 {
+    position: relative;
+    left: 3.5rem;
+  }
+  #btn2 {
+    position: relative;
+    left: 3.7rem;
+  }
+  #btn3 {
+    position: relative;
+    left: 5.1rem;
+  }
+  #btn4 {
+    position: relative;
+    left: 5rem;
+  }
+  #btn5 {
+    position: relative;
+    left: 4rem;
+  }
+}
